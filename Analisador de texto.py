@@ -1,0 +1,6 @@
+nome = input(print('Qual é o seu nome? '))
+nome.lstrip()
+print(nome.upper())
+print(nome.lower())
+nome = nome.split()
+nome = ''.join(nome)
