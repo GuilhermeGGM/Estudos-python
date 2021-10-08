@@ -3,11 +3,13 @@ from time import sleep
 
 
 def sorteio(val):
+    print('Sorteando os valoes da lista : ',end='')
     for c in range (1, 7):
         ram = randint(1, 9)
-        sleep(0.3)
-        print(ram, end=' ')
         val.append(ram)
+        print(ram, end=' ', flush=True)
+        sleep(0.3)
+    print('PRONTO')
 
 
 sort = []
