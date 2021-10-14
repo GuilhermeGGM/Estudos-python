@@ -17,8 +17,7 @@ while True:
     cont += 1
     if resp in 'Nn':
         break
-print(medidade)
-medidade = medidade / cont
+medidade = medidade / len(pessoas)
 print(f'A) Ao todo temos {cont} pessoas cadastradas.')
 print(f'B) A média de idade é de {medidade:5.2f} anos.')
 print(f'C) As mulheres cadastradas foram {mulheres}')

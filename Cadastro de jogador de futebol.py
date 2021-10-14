@@ -26,3 +26,4 @@ for g in jogador["gols"]:
     cont2 += 1
     print(f'=> Na partida {cont2}, fez {g} gols.')
 print(f'Foi um total de {jogador["totgols"]} gols.')
+print('-='*40)
